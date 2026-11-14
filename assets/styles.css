@@ -25,3 +25,5 @@
 .exercise-status.is-progress{background:#554827;color:#ffebbc}
 .exercise-status.is-planned{background:#31445e;color:#c7d5e5}
 @media(prefers-reduced-motion:reduce){.progress-fill{transition:none}}
+
+.timer-auto-setting{display:flex;align-items:center;gap:10px;margin:16px 0 8px;font-size:14px;color:#dce9f6;cursor:pointer}.timer-auto-setting input{width:22px;height:22px;flex:0 0 22px;accent-color:#45b6a9}

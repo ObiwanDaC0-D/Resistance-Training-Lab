@@ -27,3 +27,10 @@
 @media(prefers-reduced-motion:reduce){.progress-fill{transition:none}}
 
 .timer-auto-setting{display:flex;align-items:center;gap:10px;margin:16px 0 8px;font-size:14px;color:#dce9f6;cursor:pointer}.timer-auto-setting input{width:22px;height:22px;flex:0 0 22px;accent-color:#45b6a9}
+
+/* Keep the quick rest control beside Repeat set on mobile and desktop. */
+.draft-group-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:10px}
+.draft-group-actions button{min-height:42px;margin:0}
+.draft-group-actions .rest-quick-start{background:#1d625a;border-color:#368d83;color:#e2fff9}
+.draft-group-actions .rest-quick-start:hover{background:#278b82}
+@media(max-width:430px){.draft-group-actions{gap:7px}.draft-group-actions button{padding:10px 11px;font-size:14px}}

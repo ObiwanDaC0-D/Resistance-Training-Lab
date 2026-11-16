@@ -43,3 +43,12 @@
 .rest-timer-summary{cursor:pointer;font-size:19px;font-weight:700;display:list-item;list-style-position:inside}
 .rest-summary-time{float:right;font-size:18px;font-variant-numeric:tabular-nums;color:#7ce7d9;margin-left:10px}
 .rest-timer-body{margin-top:16px}
+
+/* Collapsible exercise cards; keep the completion badge visible when closed. */
+.draft-group-summary{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;cursor:pointer;list-style:none;min-height:42px}
+.draft-group-summary::-webkit-details-marker{display:none}
+.draft-group-summary::before{content:'▾';color:#aabbd1;font-size:16px;transition:transform .15s ease}
+.draft-group:not([open])>.draft-group-summary::before{transform:rotate(-90deg)}
+.draft-group-summary strong{flex:1;min-width:110px}
+.draft-group-content{margin-top:12px}
+@media(prefers-reduced-motion:reduce){.draft-group-summary::before{transition:none}}

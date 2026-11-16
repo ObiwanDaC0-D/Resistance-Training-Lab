@@ -38,3 +38,8 @@
 /* Live countdown next to each exercise's quick rest button. */
 .rest-inline-time{display:inline-flex;align-items:center;justify-content:center;min-width:66px;min-height:42px;padding:8px 10px;border:1px solid #40516b;border-radius:10px;background:#0d192a;color:#dce9f6;font-size:16px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:.02em}
 .rest-inline-time.is-running{border-color:#45b6a9;color:#7ce7d9}
+
+/* Collapsible rest timer with visible countdown in its header. */
+.rest-timer-summary{cursor:pointer;font-size:19px;font-weight:700;display:list-item;list-style-position:inside}
+.rest-summary-time{float:right;font-size:18px;font-variant-numeric:tabular-nums;color:#7ce7d9;margin-left:10px}
+.rest-timer-body{margin-top:16px}

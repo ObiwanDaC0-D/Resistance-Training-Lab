@@ -34,3 +34,7 @@
 .draft-group-actions .rest-quick-start{background:#1d625a;border-color:#368d83;color:#e2fff9}
 .draft-group-actions .rest-quick-start:hover{background:#278b82}
 @media(max-width:430px){.draft-group-actions{gap:7px}.draft-group-actions button{padding:10px 11px;font-size:14px}}
+
+/* Live countdown next to each exercise's quick rest button. */
+.rest-inline-time{display:inline-flex;align-items:center;justify-content:center;min-width:66px;min-height:42px;padding:8px 10px;border:1px solid #40516b;border-radius:10px;background:#0d192a;color:#dce9f6;font-size:16px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:.02em}
+.rest-inline-time.is-running{border-color:#45b6a9;color:#7ce7d9}
